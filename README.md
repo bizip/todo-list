@@ -1,12 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack templete
+# Todo list app
 
-> This is a portifolio project that was implemented from the figma design
-
-# Link to official documentation
-
-## [doc](https://webpack.js.org/)
+> This is a project that is going to help you to track you daily todo
 
 ## Built With
 
@@ -63,3 +59,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+<!-- npm i -d  -->

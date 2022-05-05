@@ -1,5 +1,5 @@
 {
-  "name": "webpack_templete",
+  "name": "todo-list",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bizip/webpack_templete.git"
+    "url": "git+https://github.com/bizip/todo-list.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bizip/webpack_templete/issues"
+    "url": "https://github.com/bizip/todo-list/issues"
   },
-  "homepage": "https://github.com/bizip/webpack_templete#readme",
+  "homepage": "https://github.com/bizip/todo-list#readme",
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
