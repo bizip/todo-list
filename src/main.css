@@ -34,7 +34,11 @@ input[type='text'] {
   width: 100%;
   background-color: #f2f7f0;
   font-style: italic;
-  cursor: pointer;
+  cursor: text;
+}
+
+input[type='text']:focus {
+  outline: none;
 }
 
 input[type='checkbox'] {
