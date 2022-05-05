@@ -63,3 +63,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+<!-- npm i -d  -->
