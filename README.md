@@ -4,10 +4,6 @@
 
 > This is a project that is going to help you to track you daily todo
 
-# Link to the live project
-
-## [Todo App](https://bizip.github.io/todo-list/)
-
 ## Built With
 
 - HTML5
