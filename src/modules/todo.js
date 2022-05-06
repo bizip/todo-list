@@ -28,9 +28,9 @@ export default class Todo {
     getList = () => {
       const lst = document.getElementById('list');
       lst.innerHTML = this.todoList1.map((el, index) => (` <li class="list">
-          <div class="single_list">
-              <input type="checkbox">
-              <input type="text" class="edit-value" data-id="${el.index}" value="${el.description}" />
+          <div class="single_list checked">
+              <input type="checkbox" class="check-box">
+              <input type="text" class="edit-value"  data-id="${el.index}" value="${el.description}" />
           </div>
         
           <img src="${trash}" data-id='${index}' class='setting' alt="settings" />

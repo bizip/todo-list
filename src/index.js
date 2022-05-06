@@ -1,7 +1,9 @@
 import './main.css';
 import Todo from './modules/todo.js';
+import Task from './modules/status.js';
 
 const todoLisult = new Todo();
+const newStatus = new Task();
 document.getElementById('btn').addEventListener('click', () => {
   window.localStorage.clear();
 });
@@ -26,3 +28,5 @@ editValue.forEach((item) => {
     }
   });
 });
+
+newStatus.upadate(todoLisult.todoList1);
