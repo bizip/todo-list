@@ -75,6 +75,7 @@ button {
 #list {
   padding: 0;
 }
-.checked__data{
-text-decoration: line-through;
+
+.checked__data {
+  text-decoration: line-through;
 }
