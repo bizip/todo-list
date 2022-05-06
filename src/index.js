@@ -14,3 +14,15 @@ setting.forEach((el) => {
     todoLisult.removeFromList(e.target.dataset.id);
   });
 });
+
+const editValue = document.querySelectorAll('.edit-value');
+editValue.forEach((item) => {
+  item.addEventListener('change', (e) => {
+    todoLisult.editSingleTodo(e.target.value, e.target.dataset.id);
+  });
+  item.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      todoLisult.editSingleTodo(e.target.value, e.target.dataset.id);
+    }
+  });
+});
