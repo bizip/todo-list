@@ -79,3 +79,7 @@ button {
 .checked__data {
   text-decoration: line-through;
 }
+
+.true {
+  text-decoration: line-through;
+}

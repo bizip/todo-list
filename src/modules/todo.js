@@ -25,12 +25,19 @@ export default class Todo {
       });
     }
 
+    clearLocalStorage = () => {
+      const listToclear = this.todoList1.filter((todo) => !todo.isCompleted);
+      localStorage.setItem('todoList', JSON.stringify(listToclear));
+      this.todoList1 = listToclear;
+      window.location.reload();
+    }
+
     getList = () => {
       const lst = document.getElementById('list');
       lst.innerHTML = this.todoList1.map((el, index) => (` <li class="list">
           <div class="single_list checked">
               <input type="checkbox" class="check-box">
-              <input type="text" class="edit-value"  data-id="${el.index}" value="${el.description}" />
+              <input type="text" class="edit-value ${!!el.isCompleted}"  data-id="${el.index}" value="${el.description}" />
           </div>
         
           <img src="${trash}" data-id='${index}' class='setting' alt="settings" />
@@ -44,7 +51,6 @@ export default class Todo {
       }
       localStorage.setItem('todoList', JSON.stringify(this.todoList1));
       this.getList();
-      window.location.reload();
     }
 
     editSingleTodo = (value, index) => {
