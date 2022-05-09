@@ -7,7 +7,7 @@
 
 # Link to online version
 
-> ![Todo list app](https://bizip.github.io/todo-list/)
+> [Todo list app](https://bizip.github.io/todo-list/)
 
 ## Built With
 
