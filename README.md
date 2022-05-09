@@ -4,6 +4,11 @@
 
 > This is a project that is going to help you to track you daily todo
 
+
+# Link to online version
+
+> ![Todo list app](https://bizip.github.io/todo-list/)
+
 ## Built With
 
 - HTML5
